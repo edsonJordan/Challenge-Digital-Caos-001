@@ -5,7 +5,7 @@ bShared.addEventListener('click', (e)=>{
     shared.classList.toggle("none")
     bShared.classList.toggle("active");        
     if(screen.availWidth >1300 ){
-        shared.style.left=JSON.stringify((bShared.offsetLeft)-((bShared.clientWidth)*3.5) )+ "px";
-        shared.style.top = JSON.stringify((bShared.offsetTop)-((bShared.clientHeight)*3.5) ) + "px";          
+        shared.style.left=JSON.stringify((bShared.offsetLeft)-((bShared.clientWidth)*3.5))+ "px";
+        shared.style.top = JSON.stringify((bShared.offsetTop)-((bShared.clientHeight)*3.5)) + "px";          
     }    
 })
