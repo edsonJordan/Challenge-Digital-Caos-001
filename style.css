@@ -15,7 +15,7 @@ body{
 .content__article{
     margin: 4rem 1.5rem;
     min-height: 510px;
-    max-height: 550px;
+    max-height: 560px;
     overflow: hidden;
     border-radius: .5rem;
     box-shadow: 2px 1px 0px 0px var(--color-grayish-blue);
@@ -131,8 +131,7 @@ body{
     display: none;
 }
 
-@media (min-width: 1000px) and (max-width: 1500px){
-    
+@media (min-width: 500px){    
         .content__article{
             max-height: none;
             min-height: auto;
@@ -169,7 +168,6 @@ body{
         .content__article{
             display: flex;
             max-width: 60%;
-        }
-        
+        }        
     
 }
