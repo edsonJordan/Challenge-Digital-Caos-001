@@ -76,6 +76,7 @@ body{
     margin: auto 0;
 }
 .button.shared.active{
+    background-image: url('article-preview-component-master/images/icon-share-active.svg');
     border: 10px solid var(--color-grayish-blue);
     background-color: var(--color-grayish-blue);
     
