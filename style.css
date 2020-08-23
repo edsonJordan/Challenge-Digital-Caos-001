@@ -15,7 +15,7 @@ body{
 .content__article{
     margin: 4rem 1.5rem;
     min-height: 510px;
-    max-height: 554px;
+    max-height: 550px;
     overflow: hidden;
     border-radius: .5rem;
     box-shadow: 2px 1px 0px 0px var(--color-grayish-blue);
@@ -161,14 +161,14 @@ body{
             margin: 10rem auto;
         }
         .body{
-            margin: auto 4rem;
+            margin: auto 2rem;
         }
         .section__img{
             background-size:cover;
         }
         .content__article{
             display: flex;
-            max-width: 50%;
+            max-width: 60%;
         }
         
     
