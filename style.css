@@ -128,3 +128,46 @@ body{
 .none{
     display: none;
 }
+
+@media (min-width: 1440px){
+    
+        .content__article{
+            max-height: none;
+            min-height: auto;
+        }
+        .section__shared{
+            position: absolute;
+                            
+        }
+        .section__shared::after{
+            content: "";
+            position: absolute;
+            left: 43%;
+            display: block;
+            top: 40px;
+            width: 0px;            
+            height: 0px;
+            border-right: 20px solid var(--color-dark-grayish-blue);
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent; 
+            transform: rotate(30deg);
+        }
+        .section__img{
+            width: 100%;
+        }
+        .content__article{
+            margin: 10rem auto;
+        }
+        .body{
+            margin: auto 4rem;
+        }
+        .section__img{
+            background-size:cover;
+        }
+        .content__article{
+            display: flex;
+            max-width: 50%;
+        }
+        
+    
+}
