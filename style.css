@@ -20,6 +20,7 @@ body{
     overflow: hidden;
     border-radius: .5rem;
     box-shadow: 2px 1px 0px 0px var(--color-grayish-blue);
+    background-color:white;
 }
 .section__img{    
     background-repeat: no-repeat;
